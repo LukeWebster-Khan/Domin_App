@@ -2,10 +2,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+  color: #6b6b6b;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 a {
   color: inherit;
   text-decoration: none;
