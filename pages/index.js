@@ -6,14 +6,12 @@ import useSWR from "swr";
 
 // import Image from "next/image";
 import styles from "../styles/styles.module.css";
-import ProductList from "./api/components/ProductList";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Home() {
   const { data, error } = useSWR("/api/staticdata", fetcher);
   if (error) return <div>Failed to load</div>;
-
   if (!data) return <div>Loading...</div>;
   let obj = JSON.parse(data);
   return (
