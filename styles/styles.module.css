@@ -44,4 +44,34 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.dashboard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard__search {
+  border-radius: 6px;
+  border: none;
+  background-color: #dcd9d9;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 10px 10px 30px;
+}
+.dashboard__search-wrapper {
+  position: relative;
+  padding: 10px;
+}
+.dashboard__search-icon {
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=styles.module.css.map */

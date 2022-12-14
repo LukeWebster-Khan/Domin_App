@@ -1,0 +1,23 @@
+[
+  {
+    "serial":"SN0000f43",
+    "type": "S4 Pro",
+    "Location": "Site1, Cheddar, UK",
+    "Status": "Active"
+  },
+  {
+    "serial":"SN0000g96",
+    "type": "S6 Pro",
+    "Location": "Site1, Cheddar, UK",
+    "Status": "Error"
+  },
+  {
+    "serial":"SN0000h56",
+    "type": "FAST",
+    "Location": "Vehicle1, Chester, UK",
+    "Status": "Active"
+  }
+
+]
+  
+  
