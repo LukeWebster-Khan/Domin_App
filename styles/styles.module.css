@@ -75,6 +75,12 @@
   flex-direction: column;
   padding: 10px;
 }
+.dashboard__products-status--active {
+  color: green;
+}
+.dashboard__products-status--error {
+  color: #ea6686;
+}
 .dashboard__product {
   display: flex;
   justify-content: space-between;
