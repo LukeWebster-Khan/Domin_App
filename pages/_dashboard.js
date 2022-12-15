@@ -28,52 +28,38 @@ export default function FirstPost() {
           <h2>ASCEND</h2>
         </div>
         <AiOutlinePlusCircle size={60} />
-        {/* <h1>Dashboard</h1>
-        <h2>
-          <Link href="/">Back to home</Link>
-        </h2> */}
       </div>
       <div className={styles["dashboard__search-wrapper"]}>
         <SlMagnifier className={styles["dashboard__search-icon"]} />
         <input className={styles.dashboard__search} placeholder="Search" />
       </div>
       <div className={styles["dashboard__products"]}>
-        {obj.map((obj) => (
-          <>
-            <div className={styles.dashboard__product}>
-              <div className={styles["dashboard__product-image-wrapper"]}>
-                <Image src={obj.img} width={100} height={100} />
+        {obj.map((obj, index) => (
+          <div key={index} className={styles.dashboard__product}>
+            <div className={styles["dashboard__product-image-wrapper"]}>
+              <Image alt={obj.type} src={obj.img} width={100} height={100} />
+            </div>
+            <div className={styles["dashboard__product-desc"]}>
+              <div className={styles["dashobard__products-serial"]}>
+                <span>S/N:&nbsp;</span>
+                {obj.serial}
               </div>
-              <div className={styles["dashboard__product-desc"]}>
-                <div className={styles["dashobard__products-serial"]}>
-                  <span>S/N:&nbsp;</span>
-                  {obj.serial}
-                </div>
-                <div className={styles["dashobard__products-type"]}>
-                  <span>Type:&nbsp;</span>
-                  {obj.type}
-                </div>
-                <div className={styles["dashobard__products-location"]}>
-                  <span>Location:&nbsp;</span>
-                  {obj.Location}
-                </div>
-                <div className={styles["dashobard__products-status"]}>
-                  <span>Status:&nbsp;</span>
-                  {obj.Status}
-                </div>
+              <div className={styles["dashobard__products-type"]}>
+                <span>Type:&nbsp;</span>
+                {obj.type}
+              </div>
+              <div className={styles["dashobard__products-location"]}>
+                <span>Location:&nbsp;</span>
+                {obj.Location}
+              </div>
+              <div className={styles["dashobard__products-status"]}>
+                <span>Status:&nbsp;</span>
+                {obj.Status}
               </div>
             </div>
-          </>
+          </div>
         ))}
       </div>
-      {/* <div>
-        {obj.map((obj) => (
-          <>
-            <Image src={obj.img} width={50} height={50} />
-            <li key={obj.id}>{obj.serial}</li>
-          </>
-        ))}
-      </div> */}
     </>
   );
 }
