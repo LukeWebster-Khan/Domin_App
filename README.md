@@ -1,3 +1,11 @@
+# Domin App
+
+This is NextJS app which uses authentication to access a product landing page.
+
+Dummy data is being used from a local JSON file to produce product information.
+
+Strapi, a headless CMS, has been utlizied with Docker to add new users via authentication
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
