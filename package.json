@@ -11,14 +11,21 @@
   "dependencies": {
     "@auth0/auth0-react": "^1.12.0",
     "@auth0/nextjs-auth0": "^2.0.1",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "chart.js": "^4.1.0",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "faker": "^6.6.6",
     "next": "13.0.6",
     "next-auth": "^4.18.6",
     "pg": "^8.8.0",
     "react": "18.2.0",
+    "react-chartjs-2": "^5.0.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-modal": "^3.16.1",
+    "sass": "^1.56.2",
     "swr": "^2.0.0"
   }
 }

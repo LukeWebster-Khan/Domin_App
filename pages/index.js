@@ -8,31 +8,15 @@ import _dashboard from "./_dashboard";
 const IndexPage = ({ session }) => {
   const signInButtonNode = () => {
     if (session) {
-      console.log("Logged in");
       return false;
     }
-
-    return (
-      <div>
-        {/* <Link href="/api/auth/signin">
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-              signIn();
-            }}
-          >
-            Sign In
-          </button>
-        </Link> */}
-      </div>
-    );
+    return <div></div>;
   };
 
   const signOutButtonNode = () => {
     if (!session) {
       return false;
     }
-
     return (
       <div>
         <Link href="/api/auth/signout">

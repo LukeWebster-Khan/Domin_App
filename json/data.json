@@ -1,26 +1,65 @@
 [
   {
-    "serial":"SN0000f43",
-    "type": "S4 Pro",
-    "Location": "Site1, Cheddar, UK",
-    "Status": "Active",
-    "img": "https://cdn.shopify.com/s/files/1/0502/7817/0780/files/S4_Pro.png?v=1666624968"
+    "product": {
+      "serial": "SN0000f43",
+      "type": "S4 Pro",
+      "Location": "Site1, Cheddar, UK",
+      "Status": "Active",
+      "img": "https://cdn.shopify.com/s/files/1/0502/7817/0780/files/S4_Pro.png?v=1666624968",
+      "temp": "25",
+      "hours": "10",
+      "value": "40 mA",
+      "spool": "60%",
+      "pressure": "1bar",
+      "flow": "300 mNm",
+      "chartdata": {
+        "label": "Temperature",
+        "data": [1, 442, 3, 444, 445],
+        "borderColor": "rgb(255, 99, 132)",
+        "backgroundColor": "rgba(255, 99, 132, 0.5)"
+      }
+    }
   },
   {
-    "serial":"SN0000g96",
-    "type": "S6 Pro",
-    "Location": "Site1, Cheddar, UK",
-    "Status": "Error",
-    "img": "https://cdn.shopify.com/s/files/1/0502/7817/0780/files/S6_Pro.png?v=1666624980"
+    "product": {
+      "serial": "SN0000f96",
+      "type": "S6 Pro",
+      "Location": "Site1, Cheddar, UK",
+      "Status": "Error",
+      "img": "https://cdn.shopify.com/s/files/1/0502/7817/0780/files/S6_Pro.png?v=1666624980",
+      "temp": "25",
+      "hours": "10",
+      "value": "40 mA",
+      "spool": "60%",
+      "pressure": "1bar",
+      "flow": "300 mNm",
+      "chartdata": {
+        "label": "Temperature",
+        "data": [1, 432, 3, 544, 455],
+        "borderColor": "rgb(255, 99, 132)",
+        "backgroundColor": "rgba(255, 99, 132, 0.5)"
+      }
+    }
   },
   {
-    "serial":"SN0000h56",
-    "type": "FAST",
-    "Location": "Vehicle1, Chester, UK",
-    "Status": "Active",
-    "img": "https://cdn.shopify.com/s/files/1/0502/7817/0780/files/S10_Pro_a626016d-2f8a-4e98-953c-da3f013f9d1e.png?v=1666625006"
+    "product": {
+      "serial": "SN0000h56",
+      "type": "FAST",
+      "Location": "Vehicle1, Chester, UK",
+      "Status": "Active",
+      "img": "https://cdn.shopify.com/s/files/1/0502/7817/0780/files/S10_Pro_a626016d-2f8a-4e98-953c-da3f013f9d1e.png?v=1666625006",
+      "temp": "25",
+      "hours": "10",
+      "value": "40 mA",
+      "spool": "60%",
+      "pressure": "1bar",
+      "flow": "300 mNm",
+      "chartdata": {
+        "label": "Temperature",
+        "data": [100, 2, 3, 4, 500],
+        "borderColor": "rgb(255, 99, 132)",
+        "backgroundColor": "rgba(255, 99, 132, 0.5)"
+      }
+    }
   }
-
 ]
-  
-  
