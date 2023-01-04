@@ -1,4 +1,4 @@
-# Domin App
+# Product App
 
 This is NextJS app which uses authentication to access a product landing page.
 
